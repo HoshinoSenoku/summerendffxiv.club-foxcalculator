@@ -363,7 +363,7 @@ function A_general() {
             document.getElementById(dirc('A5')).style.backgroundColor = "#ff00ff";
             document.getElementById(dirc('C1')).style.backgroundColor = "#ff00ff";
             document.getElementById(dirc('F1')).style.backgroundColor = "#ff00ff";
-        }
+        }//A-1-1
         if (matrix[dirc('C3')] == 'box' && matrix[dirc('C4')] == 'box' &&
             matrix[dirc('D3')] == 'box' && matrix[dirc('D4')] == 'box') {
             document.getElementById(dirc('A4')).style.backgroundColor = "#ff00ff";
@@ -371,20 +371,26 @@ function A_general() {
             document.getElementById(dirc('A6')).style.backgroundColor = "#ff00ff";
             document.getElementById(dirc('C1')).style.backgroundColor = "#ff00ff";
             document.getElementById(dirc('F1')).style.backgroundColor = "#ff00ff";
-        }
+        }//A-1-2
     } if (matrix[dirc('C4')] == 'sword' && matrix[dirc('C5')] == 'sword' &&
         matrix[dirc('D4')] == 'sword' && matrix[dirc('D5')] == 'sword' &&
         matrix[dirc('E4')] == 'sword' && matrix[dirc('E5')] == 'sword') {
-        if ((matrix[dirc('A1')] == 'box' && matrix[dirc('A2')] == 'box' &&
-            matrix[dirc('B1')] == 'box' && matrix[dirc('B2')] == 'box') || (
-                matrix[dirc('D1')] == 'box' && matrix[dirc('D2')] == 'box' &&
-                matrix[dirc('E1')] == 'box' && matrix[dirc('E2')] == 'box')) {
+        if (matrix[dirc('A1')] == 'box' && matrix[dirc('A2')] == 'box' &&
+            matrix[dirc('B1')] == 'box' && matrix[dirc('B2')] == 'box') {
             document.getElementById(dirc('B4')).style.backgroundColor = "#ff00ff";
             document.getElementById(dirc('C1')).style.backgroundColor = "#ff00ff";
             document.getElementById(dirc('C6')).style.backgroundColor = "#ff00ff";
             document.getElementById(dirc('F4')).style.backgroundColor = "#ff00ff";
             document.getElementById(dirc('F5')).style.backgroundColor = "#ff00ff";
-        }
+        }//A-2-1
+        if (matrix[dirc('D1')] == 'box' && matrix[dirc('D2')] == 'box' &&
+            matrix[dirc('E1')] == 'box' && matrix[dirc('E2')] == 'box') {
+            document.getElementById(dirc('B4')).style.backgroundColor = "#ff00ff";
+            document.getElementById(dirc('C6')).style.backgroundColor = "#ff00ff";
+            document.getElementById(dirc('F3')).style.backgroundColor = "#ff00ff";
+            document.getElementById(dirc('F4')).style.backgroundColor = "#ff00ff";
+            document.getElementById(dirc('F5')).style.backgroundColor = "#ff00ff";
+        }//A-2-2
     } if (matrix[dirc('D4')] == 'sword' && matrix[dirc('D5')] == 'sword' &&
         matrix[dirc('E4')] == 'sword' && matrix[dirc('E5')] == 'sword' &&
         matrix[dirc('F4')] == 'sword' && matrix[dirc('F5')] == 'sword') {
@@ -396,25 +402,18 @@ function A_general() {
             document.getElementById(dirc('C4')).style.backgroundColor = "#ff00ff";
             document.getElementById(dirc('C5')).style.backgroundColor = "#ff00ff";
             document.getElementById(dirc('D3')).style.backgroundColor = "#ff00ff";
-        }
+        }//A-3-1 A-3-2
     } if (matrix[dirc('C4')] == 'sword' && matrix[dirc('C5')] == 'sword' && matrix[dirc('C6')] == 'sword' &&
         matrix[dirc('D4')] == 'sword' && matrix[dirc('D5')] == 'sword' && matrix[dirc('D6')] == 'sword') {
         if ((matrix[dirc('D1')] == 'box' && matrix[dirc('D2')] == 'box' &&
             matrix[dirc('E1')] == 'box' && matrix[dirc('E2')] == 'box') || (
-                matrix[dirc('D1')] == 'box' && matrix[dirc('D2')] == 'box' &&
-                matrix[dirc('E1')] == 'box' && matrix[dirc('E2')] == 'box')) {
+                matrix[dirc('E4')] == 'box' && matrix[dirc('E5')] == 'box' &&
+                matrix[dirc('F4')] == 'box' && matrix[dirc('F5')] == 'box')) {
             document.getElementById(dirc('A4')).style.backgroundColor = "#ff00ff";
             document.getElementById(dirc('A5')).style.backgroundColor = "#ff00ff";
             document.getElementById(dirc('C1')).style.backgroundColor = "#ff00ff";
             document.getElementById(dirc('F1')).style.backgroundColor = "#ff00ff";
-        }
-        if (matrix[dirc('E4')] == 'box' && matrix[dirc('E5')] == 'box' &&
-            matrix[dirc('F4')] == 'box' && matrix[dirc('F5')] == 'box') {
-            document.getElementById(dirc('A4')).style.backgroundColor = "#ff00ff";
-            document.getElementById(dirc('A5')).style.backgroundColor = "#ff00ff";
-            document.getElementById(dirc('C1')).style.backgroundColor = "#ff00ff";
-            document.getElementById(dirc('F1')).style.backgroundColor = "#ff00ff";
-        }
+        }//A-4-1 A-4-2
     } if (matrix[dirc('D4')] == 'sword' && matrix[dirc('D5')] == 'sword' && matrix[dirc('D6')] == 'sword' &&
         matrix[dirc('E4')] == 'sword' && matrix[dirc('E5')] == 'sword' && matrix[dirc('E6')] == 'sword') {
         if ((matrix[dirc('A1')] == 'box' && matrix[dirc('A2')] == 'box' &&
@@ -425,7 +424,7 @@ function A_general() {
             document.getElementById(dirc('C4')).style.backgroundColor = "#ff00ff";
             document.getElementById(dirc('C5')).style.backgroundColor = "#ff00ff";
             document.getElementById(dirc('D3')).style.backgroundColor = "#ff00ff";
-        }
+        }//A-5-1 A-5-2
     } if (matrix[dirc('C3')] == 'sword' && matrix[dirc('C4')] == 'sword' && matrix[dirc('C5')] == 'sword' &&
         matrix[dirc('D3')] == 'sword' && matrix[dirc('D4')] == 'sword' && matrix[dirc('D5')] == 'sword') {
         if ((matrix[dirc('A1')] == 'box' && matrix[dirc('A2')] == 'box' &&
@@ -436,19 +435,25 @@ function A_general() {
             document.getElementById(dirc('B6')).style.backgroundColor = "#ff00ff";
             document.getElementById(dirc('E6')).style.backgroundColor = "#ff00ff";
             document.getElementById(dirc('F3')).style.backgroundColor = "#ff00ff";
-        }
+        }//A-6-1 A-6-2
     } if (matrix[dirc('D1')] == 'sword' && matrix[dirc('D2')] == 'sword' &&
         matrix[dirc('E1')] == 'sword' && matrix[dirc('E2')] == 'sword' &&
         matrix[dirc('F1')] == 'sword' && matrix[dirc('F2')] == 'sword') {
-        if ((matrix[dirc('E4')] == 'box' && matrix[dirc('E5')] == 'box' &&
-            matrix[dirc('F4')] == 'box' && matrix[dirc('F5')] == 'box') || (
-                matrix[dirc('C5')] == 'box' && matrix[dirc('C6')] == 'box' &&
-                matrix[dirc('D5')] == 'box' && matrix[dirc('D6')] == 'box')) {
+        if (matrix[dirc('E4')] == 'box' && matrix[dirc('E5')] == 'box' &&
+            matrix[dirc('F4')] == 'box' && matrix[dirc('F5')] == 'box') {
             document.getElementById(dirc('A3')).style.backgroundColor = "#ff00ff";
             document.getElementById(dirc('B6')).style.backgroundColor = "#ff00ff";
             document.getElementById(dirc('E6')).style.backgroundColor = "#ff00ff";
             document.getElementById(dirc('F3')).style.backgroundColor = "#ff00ff";
-        }
+        }//A-7-1
+        if (matrix[dirc('C5')] == 'box' && matrix[dirc('C6')] == 'box' &&
+            matrix[dirc('D5')] == 'box' && matrix[dirc('D6')] == 'box') {
+            document.getElementById(dirc('A3')).style.backgroundColor = "#ff00ff";
+            document.getElementById(dirc('B6')).style.backgroundColor = "#ff00ff";
+            document.getElementById(dirc('E6')).style.backgroundColor = "#ff00ff";
+            document.getElementById(dirc('F3')).style.backgroundColor = "#ff00ff";
+            document.getElementById(dirc('F4')).style.backgroundColor = "#ff00ff";
+        }//A-7-2
         if ((matrix[dirc('D5')] == 'box' && matrix[dirc('D6')] == 'box' &&
             matrix[dirc('E5')] == 'box' && matrix[dirc('E6')] == 'box') || (
                 matrix[dirc('C3')] == 'box' && matrix[dirc('C4')] == 'box' &&
@@ -457,7 +462,7 @@ function A_general() {
             document.getElementById(dirc('C6')).style.backgroundColor = "#ff00ff";
             document.getElementById(dirc('F4')).style.backgroundColor = "#ff00ff";
             document.getElementById(dirc('F5')).style.backgroundColor = "#ff00ff";
-        }
+        }//A-7-3 A-7-4
     }
 }
 function B_general() {
@@ -471,7 +476,7 @@ function B_general() {
             document.getElementById(dirc('D1')).style.backgroundColor = "#ff00ff";
             document.getElementById(dirc('E3')).style.backgroundColor = "#ff00ff";
             document.getElementById(dirc('F4')).style.backgroundColor = "#ff00ff";
-        }
+        }//B-1-1 B-1-2
         if ((matrix[dirc('E1')] == 'box' && matrix[dirc('E2')] == 'box' &&
             matrix[dirc('F1')] == 'box' && matrix[dirc('F2')] == 'box') || (
                 matrix[dirc('E4')] == 'box' && matrix[dirc('E5')] == 'box' &&
@@ -480,7 +485,7 @@ function B_general() {
             document.getElementById(dirc('C3')).style.backgroundColor = "#ff00ff";
             document.getElementById(dirc('D3')).style.backgroundColor = "#ff00ff";
             document.getElementById(dirc('D5')).style.backgroundColor = "#ff00ff";
-        }
+        }//B-1-3 B-1-4
     } if (matrix[dirc('D5')] == 'sword' && matrix[dirc('D6')] == 'sword' &&
         matrix[dirc('E5')] == 'sword' && matrix[dirc('E6')] == 'sword' &&
         matrix[dirc('F5')] == 'sword' && matrix[dirc('F6')] == 'sword') {
@@ -492,7 +497,7 @@ function B_general() {
             document.getElementById(dirc('D1')).style.backgroundColor = "#ff00ff";
             document.getElementById(dirc('E3')).style.backgroundColor = "#ff00ff";
             document.getElementById(dirc('F4')).style.backgroundColor = "#ff00ff";
-        }
+        }//B-2-1 B-2-2
         if ((matrix[dirc('D2')] == 'box' && matrix[dirc('D3')] == 'box' &&
             matrix[dirc('E2')] == 'box' && matrix[dirc('E3')] == 'box') || (
                 matrix[dirc('A5')] == 'box' && matrix[dirc('A6')] == 'box' &&
@@ -501,7 +506,7 @@ function B_general() {
             document.getElementById(dirc('B1')).style.backgroundColor = "#ff00ff";
             document.getElementById(dirc('B3')).style.backgroundColor = "#ff00ff";
             document.getElementById(dirc('C6')).style.backgroundColor = "#ff00ff";
-        }
+        }//B-2-3 B-2-4
     } if (matrix[dirc('E4')] == 'sword' && matrix[dirc('E5')] == 'sword' && matrix[dirc('E6')] == 'sword' &&
         matrix[dirc('F4')] == 'sword' && matrix[dirc('F5')] == 'sword' && matrix[dirc('F6')] == 'sword') {
         if ((matrix[dirc('A5')] == 'box' && matrix[dirc('A6')] == 'box' &&
@@ -512,7 +517,7 @@ function B_general() {
             document.getElementById(dirc('B1')).style.backgroundColor = "#ff00ff";
             document.getElementById(dirc('B3')).style.backgroundColor = "#ff00ff";
             document.getElementById(dirc('C6')).style.backgroundColor = "#ff00ff";
-        }
+        }//B-3-1 B-3-2
     } if (matrix[dirc('D1')] == 'sword' && matrix[dirc('D2')] == 'sword' &&
         matrix[dirc('E1')] == 'sword' && matrix[dirc('E2')] == 'sword' &&
         matrix[dirc('F1')] == 'sword' && matrix[dirc('F2')] == 'sword') {
@@ -524,7 +529,7 @@ function B_general() {
             document.getElementById(dirc('C3')).style.backgroundColor = "#ff00ff";
             document.getElementById(dirc('D3')).style.backgroundColor = "#ff00ff";
             document.getElementById(dirc('D5')).style.backgroundColor = "#ff00ff";
-        }
+        }//B-4-1 B-4-2
         if ((matrix[dirc('B3')] == 'box' && matrix[dirc('B4')] == 'box' &&
             matrix[dirc('C3')] == 'box' && matrix[dirc('C4')] == 'box') || (
                 matrix[dirc('D5')] == 'box' && matrix[dirc('D6')] == 'box' &&
@@ -533,7 +538,7 @@ function B_general() {
             document.getElementById(dirc('A6')).style.backgroundColor = "#ff00ff";
             document.getElementById(dirc('C1')).style.backgroundColor = "#ff00ff";
             document.getElementById(dirc('F6')).style.backgroundColor = "#ff00ff";
-        }
+        }//B-4-3 B-4-4
     } if (matrix[dirc('D1')] == 'sword' && matrix[dirc('D2')] == 'sword' && matrix[dirc('D3')] == 'sword' &&
         matrix[dirc('E1')] == 'sword' && matrix[dirc('E2')] == 'sword' && matrix[dirc('E3')] == 'sword') {
         if ((matrix[dirc('A1')] == 'box' && matrix[dirc('A2')] == 'box' &&
@@ -544,7 +549,7 @@ function B_general() {
             document.getElementById(dirc('A6')).style.backgroundColor = "#ff00ff";
             document.getElementById(dirc('C1')).style.backgroundColor = "#ff00ff";
             document.getElementById(dirc('F6')).style.backgroundColor = "#ff00ff";
-        }
+        }//B-5-1 B-5-2
     }
 }
 function C_general() {
@@ -559,7 +564,7 @@ function C_general() {
             document.getElementById(dirc('D4')).style.backgroundColor = "#ff00ff";
             document.getElementById(dirc('E4')).style.backgroundColor = "#ff00ff";
             document.getElementById(dirc('F2')).style.backgroundColor = "#ff00ff";
-        }
+        }//C-1-1 C-1-2
     } if (matrix[dirc('C5')] == 'sword' && matrix[dirc('C6')] == 'sword' &&
         matrix[dirc('D5')] == 'sword' && matrix[dirc('D6')] == 'sword' &&
         matrix[dirc('E5')] == 'sword' && matrix[dirc('E6')] == 'sword') {
@@ -571,7 +576,7 @@ function C_general() {
             document.getElementById(dirc('E1')).style.backgroundColor = "#ff00ff";
             document.getElementById(dirc('F5')).style.backgroundColor = "#ff00ff";
             document.getElementById(dirc('F6')).style.backgroundColor = "#ff00ff";
-        }
+        }//C-2-1 C-2-2
     } if (matrix[dirc('D5')] == 'sword' && matrix[dirc('D6')] == 'sword' &&
         matrix[dirc('E5')] == 'sword' && matrix[dirc('E6')] == 'sword' &&
         matrix[dirc('F5')] == 'sword' && matrix[dirc('F6')] == 'sword') {
@@ -583,7 +588,7 @@ function C_general() {
             document.getElementById(dirc('B5')).style.backgroundColor = "#ff00ff";
             document.getElementById(dirc('C6')).style.backgroundColor = "#ff00ff";
             document.getElementById(dirc('E3')).style.backgroundColor = "#ff00ff";
-        }
+        }//C-3-1 C-3-2
         if ((matrix[dirc('D3')] == 'box' && matrix[dirc('D4')] == 'box' &&
             matrix[dirc('E3')] == 'box' && matrix[dirc('E4')] == 'box') || (
                 matrix[dirc('C1')] == 'box' && matrix[dirc('C2')] == 'box' &&
@@ -592,7 +597,7 @@ function C_general() {
             document.getElementById(dirc('A6')).style.backgroundColor = "#ff00ff";
             document.getElementById(dirc('C3')).style.backgroundColor = "#ff00ff";
             document.getElementById(dirc('F1')).style.backgroundColor = "#ff00ff";
-        }
+        }//C-3-4 C-3-4
     } if (matrix[dirc('D4')] == 'sword' && matrix[dirc('D5')] == 'sword' && matrix[dirc('D6')] == 'sword' &&
         matrix[dirc('E4')] == 'sword' && matrix[dirc('E5')] == 'sword' && matrix[dirc('E6')] == 'sword') {
         if ((matrix[dirc('A3')] == 'box' && matrix[dirc('A4')] == 'box' &&
@@ -603,7 +608,7 @@ function C_general() {
             document.getElementById(dirc('B5')).style.backgroundColor = "#ff00ff";
             document.getElementById(dirc('C6')).style.backgroundColor = "#ff00ff";
             document.getElementById(dirc('E3')).style.backgroundColor = "#ff00ff";
-        }
+        }//C-4-1 C-4-2
         if ((matrix[dirc('C2')] == 'box' && matrix[dirc('C3')] == 'box' &&
             matrix[dirc('D2')] == 'box' && matrix[dirc('D3')] == 'box') || (
                 matrix[dirc('B5')] == 'box' && matrix[dirc('B6')] == 'box' &&
@@ -612,7 +617,7 @@ function C_general() {
             document.getElementById(dirc('E1')).style.backgroundColor = "#ff00ff";
             document.getElementById(dirc('F5')).style.backgroundColor = "#ff00ff";
             document.getElementById(dirc('F6')).style.backgroundColor = "#ff00ff";
-        }
+        }//C-4-3 C-4-4
     } if (matrix[dirc('D3')] == 'sword' && matrix[dirc('D4')] == 'sword' && matrix[dirc('D5')] == 'sword' &&
         matrix[dirc('E3')] == 'sword' && matrix[dirc('E4')] == 'sword' && matrix[dirc('E5')] == 'sword') {
         if ((matrix[dirc('A3')] == 'box' && matrix[dirc('A4')] == 'box' &&
@@ -623,7 +628,7 @@ function C_general() {
             document.getElementById(dirc('A6')).style.backgroundColor = "#ff00ff";
             document.getElementById(dirc('C3')).style.backgroundColor = "#ff00ff";
             document.getElementById(dirc('F1')).style.backgroundColor = "#ff00ff";
-        }
+        }//C-5-1 C-5-2
     } if (matrix[dirc('C1')] == 'sword' && matrix[dirc('C2')] == 'sword' && matrix[dirc('C3')] == 'sword' &&
         matrix[dirc('D1')] == 'sword' && matrix[dirc('D2')] == 'sword' && matrix[dirc('D3')] == 'sword') {
         if ((matrix[dirc('A3')] == 'box' && matrix[dirc('A4')] == 'box' &&
@@ -632,7 +637,7 @@ function C_general() {
             document.getElementById(dirc('D4')).style.backgroundColor = "#ff00ff";
             document.getElementById(dirc('E4')).style.backgroundColor = "#ff00ff";
             document.getElementById(dirc('F2')).style.backgroundColor = "#ff00ff";
-        }
+        }//C-6-1 C-6-2
     }
 }
 function D_general() {
@@ -646,7 +651,7 @@ function D_general() {
             document.getElementById(dirc('E1')).style.backgroundColor = "#ff00ff";
             document.getElementById(dirc('F2')).style.backgroundColor = "#ff00ff";
             document.getElementById(dirc('F5')).style.backgroundColor = "#ff00ff";
-        }
+        }//D-1-1 D-1-2
     } if (matrix[dirc('A4')] == 'sword' && matrix[dirc('A5')] == 'sword' && matrix[dirc('A6')] == 'sword' &&
         matrix[dirc('B4')] == 'sword' && matrix[dirc('B5')] == 'sword' && matrix[dirc('B6')] == 'sword') {
         if ((matrix[dirc('D5')] == 'box' && matrix[dirc('D6')] == 'box' &&
@@ -657,7 +662,7 @@ function D_general() {
             document.getElementById(dirc('C4')).style.backgroundColor = "#ff00ff";
             document.getElementById(dirc('D4')).style.backgroundColor = "#ff00ff";
             document.getElementById(dirc('F6')).style.backgroundColor = "#ff00ff";
-        }
+        }//D-2-1 D-2-2
     } if (matrix[dirc('A3')] == 'sword' && matrix[dirc('A4')] == 'sword' &&
         matrix[dirc('B3')] == 'sword' && matrix[dirc('B4')] == 'sword' &&
         matrix[dirc('C3')] == 'sword' && matrix[dirc('C4')] == 'sword') {
@@ -669,7 +674,7 @@ function D_general() {
             document.getElementById(dirc('C2')).style.backgroundColor = "#ff00ff";
             document.getElementById(dirc('C6')).style.backgroundColor = "#ff00ff";
             document.getElementById(dirc('E3')).style.backgroundColor = "#ff00ff";
-        }
+        }//D-3-1 D-3-2
     } if (matrix[dirc('B3')] == 'sword' && matrix[dirc('B4')] == 'sword' &&
         matrix[dirc('C3')] == 'sword' && matrix[dirc('C4')] == 'sword' &&
         matrix[dirc('D3')] == 'sword' && matrix[dirc('D4')] == 'sword') {
@@ -681,7 +686,7 @@ function D_general() {
             document.getElementById(dirc('A4')).style.backgroundColor = "#ff00ff";
             document.getElementById(dirc('D6')).style.backgroundColor = "#ff00ff";
             document.getElementById(dirc('F4')).style.backgroundColor = "#ff00ff";
-        }
+        }//D-4-1 D-4-2
     } if (matrix[dirc('D5')] == 'sword' && matrix[dirc('D6')] == 'sword' &&
         matrix[dirc('E5')] == 'sword' && matrix[dirc('E6')] == 'sword' &&
         matrix[dirc('F5')] == 'sword' && matrix[dirc('F6')] == 'sword') {
@@ -693,7 +698,7 @@ function D_general() {
             document.getElementById(dirc('C2')).style.backgroundColor = "#ff00ff";
             document.getElementById(dirc('C6')).style.backgroundColor = "#ff00ff";
             document.getElementById(dirc('E3')).style.backgroundColor = "#ff00ff";
-        }
+        }//D-5-1 D-5-2
     } if (matrix[dirc('C2')] == 'sword' && matrix[dirc('C3')] == 'sword' &&
         matrix[dirc('D2')] == 'sword' && matrix[dirc('D3')] == 'sword' &&
         matrix[dirc('E2')] == 'sword' && matrix[dirc('E3')] == 'sword') {
@@ -705,7 +710,7 @@ function D_general() {
             document.getElementById(dirc('C4')).style.backgroundColor = "#ff00ff";
             document.getElementById(dirc('D4')).style.backgroundColor = "#ff00ff";
             document.getElementById(dirc('F6')).style.backgroundColor = "#ff00ff";
-        }
+        }//D-6-1 D-6-2
     } if (matrix[dirc('C2')] == 'sword' && matrix[dirc('C3')] == 'sword' && matrix[dirc('C4')] == 'sword' &&
         matrix[dirc('D2')] == 'sword' && matrix[dirc('D3')] == 'sword' && matrix[dirc('D4')] == 'sword') {
         if ((matrix[dirc('A3')] == 'box' && matrix[dirc('A4')] == 'box' &&
@@ -716,7 +721,7 @@ function D_general() {
             document.getElementById(dirc('E1')).style.backgroundColor = "#ff00ff";
             document.getElementById(dirc('F2')).style.backgroundColor = "#ff00ff";
             document.getElementById(dirc('F5')).style.backgroundColor = "#ff00ff";
-        }
+        }//D-7-1 D-7-2
         if ((matrix[dirc('A5')] == 'box' && matrix[dirc('A6')] == 'box' &&
             matrix[dirc('B5')] == 'box' && matrix[dirc('B6')] == 'box') || (
                 matrix[dirc('E5')] == 'box' && matrix[dirc('E6')] == 'box' &&
@@ -725,7 +730,7 @@ function D_general() {
             document.getElementById(dirc('A4')).style.backgroundColor = "#ff00ff";
             document.getElementById(dirc('D6')).style.backgroundColor = "#ff00ff";
             document.getElementById(dirc('F4')).style.backgroundColor = "#ff00ff";
-        }
+        }//D-7-3 D-2-4
     }
 }
 function updata_matrix_increment() {
